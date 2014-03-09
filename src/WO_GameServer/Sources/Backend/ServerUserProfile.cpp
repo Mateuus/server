@@ -15,7 +15,7 @@
 #include "../AsyncFuncs.h"
 #include "../ServerGameLogic.h"
 
-const static char* gServerWOApiKey = "t346sxvb37gsdlfgk2";
+const static char* gServerWOApiKey = "CfFkqQWjfgksYG56893GDhjfjZ20";
 
 CServerUserProfile::CServerUserProfile()
 {
