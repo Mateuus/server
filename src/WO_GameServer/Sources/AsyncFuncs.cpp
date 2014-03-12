@@ -39,7 +39,7 @@ DWORD WINAPI GetProfileDataThread(void* in_ptr)
 DWORD WINAPI AddWeaponStatsThread(void* in_ptr)
 {
 	CWOBackendReq req("api_SrvAddWeaponStats.aspx");
-	req.AddParam("skey1", "t346sxvb37gsdlfgk2");
+	req.AddParam("skey1", "CfFkqQWjfgksYG56893GDhjfjZ20");
 	
 	req.AddParam("MapType", gServerLogic.ginfo_.mapType);
 	for(size_t i=0, size=gServerLogic.weaponStats_.size(); i<size; ++i)
@@ -73,7 +73,7 @@ DWORD WINAPI UpdateProfileThread(void* in_ptr)
 
 	CWOBackendReq req("api_SrvAddUserRoundResult4.aspx");
 	req.AddSessionInfo(upd.CustomerID, 0);
-	req.AddParam("skey1", "t346sxvb37gsdlfgk2");
+	req.AddParam("skey1", "CfFkqQWjfgksYG56893GDhjfjZ20");
 	
 	char gsid[128];
 	sprintf(gsid, "%I64d", cfg_sessionId);
@@ -162,7 +162,7 @@ DWORD WINAPI AddLogInfoThread(void* in_ptr)
 	//r3dOutToLog("AddLogInfoThread: started, customer: %d\n", data->CustomerID);
   
 	CWOBackendReq req("api_SrvAddLogInfo.aspx");
-	req.AddParam("skey1", "t346sxvb37gsdlfgk2");
+	req.AddParam("skey1", "CfFkqQWjfgksYG56893GDhjfjZ20");
 	
 	char gsid[128];
 	sprintf(gsid, "%I64d", cfg_sessionId);

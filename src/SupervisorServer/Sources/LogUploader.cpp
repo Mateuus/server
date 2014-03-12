@@ -134,7 +134,7 @@ int CLogUploader::UploadDataToServer(__int64 sessionId, const CkByteData& logdat
 
 	req.UseUpload();
 	req.put_Path(fullUrl);
-	req.AddParam("skey1", "t346sxvb37gsdlfgk2");
+	req.AddParam("skey1", "CfFkqQWjfgksYG56893GDhjfjZ20");
 	req.AddParam("sessionId", strSessionId);
 
 	if(!req.AddBytesForUpload("logFile", strSessionId, cdata1))

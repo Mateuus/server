@@ -11,3 +11,9 @@
 /src/Scripts/AmazonTester
 /src/Scripts/AmazonPoller
 /src/Scripts/account
+/src/MasterServer/Debug
+/src/MasterServer/Release
+/src/SupervisorServer/Debug
+/src/WO_GameServer/Release
+/src/WO_GameServer/Debug
+/src/Scripts/WOBackend-ASP.NET/WOBackend-ASP.NET.suo
