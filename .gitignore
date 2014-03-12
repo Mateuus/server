@@ -17,3 +17,6 @@
 /src/WO_GameServer/Release
 /src/WO_GameServer/Debug
 /src/Scripts/WOBackend-ASP.NET/WOBackend-ASP.NET.suo
+/src/MasterServer/Release
+/src/SupervisorServer/Release
+/src/WO_GameServer/Release
