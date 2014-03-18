@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
 
-public partial class api_Login : WOApiWebPage
+public partial class api_verificarban : WOApiWebPage
 {
     protected override void Execute()
     {
